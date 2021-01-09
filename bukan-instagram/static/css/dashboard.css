@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*Bikin wrapper ada di tengah2*/
+.wrapper {
+	width: 80%;
+	margin: auto;
+	padding-top: 10vh;
+}
+
+/*atur ukuran profile image*/
+#profile-img {
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	margin-right: 5vw;
+}
+
+/*Bikin header-left ama hedaer-right sejajar*/
+.header-container {
+	display: flex;
+	flex-direction: row;
+}
+
+/*Atur header-left dan header-right biar pas*/
+.header-right {
+	width: 100%;
+	padding: 0 20px;
+}
+
+/*bikin semua child profile-user-setting sejajar*/
+.profile-user-settings {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2.5vw;
+}
+
+/*Atur ukuran username, button, ama setting*/
+.profile-user-settings h1 {
+	font-size: 4vw;
+}
+
+.btn {
+	font-size: 2vw;
+	height: 3vw;
+	padding: 0 1vw;
+	margin: 0 2vw;
+}
+
+/*Bikin post,follower,folowing sejajar makai flex*/
+.profile-stats ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1vw;
+	font-size: 1.5vw;
+}
+.profile-stats li {
+	margin-right: 1vw;
+}
+
+/*Atur tulisan didalam profile-bio*/
+.profile-bio {
+	font-size: 1.5vw;
+}
