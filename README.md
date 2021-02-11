@@ -1,6 +1,6 @@
-# Simple-instagram-web-clone
+# SimpleInstagramWebClone
 
-## run the website
+## Run the website
 Clone the repo and run the app.
 ```
 git clone https://github.com/fahrial14/very-simple-instagram-web-clone.git
